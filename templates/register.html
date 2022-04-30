@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Assistant Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    
+        <header>
+            <img src="img/Website-Logo-01.png" alt="logo for travel assistant" >
+        </header>
+
+        <nav>
+            <a href="https://www.google.com/maps">Google Maps</a>
+            <a href="contactus.html">Contact US</a>
+            <a href="information.html">Information</a>
+            <a href="index.html">Login</a>
+            <a href="#">Check balance</a>
+        
+        </nav>
+
+        <main>
+            <h2>Login Form</h2>
+
+            <form action="/action_page.php" method="post">
+              <div class="imgcontainer">
+            
+              </div>
+            
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Email Adress</b></label>
+                <input type="password" placeholder="Enter Email Adress" name="psw" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Enter Password Again" name="psw" required>
+
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+
+                <footer>
+                    <a href="index.html"><h3><b>Register</b></h3></a>
+                </footer>
+
+              </div>
+            
+              
+            </form>
+              
+        
+        </main>
+
+        
+
+    
+
+    </div>
+
+
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+    
+</body>
+</html>

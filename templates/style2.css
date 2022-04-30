@@ -1,0 +1,125 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.151);
+    background-image: url(img/background-img-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    height: 140px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: rgb(244, 246, 248);
+    padding-top: 14px;
+    padding-bottom: 14;
+    margin-top: 10px;
+    
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: rgb(244, 246, 248);
+    margin-top: 25px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 600px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: rgb(244, 246, 248);
+    margin-top: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 10%;
+    padding-right: 10%;
+}
+
+nav p{
+    color: aliceblue;
+}
+
+main p{
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+footer p{
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 209px;
+}
+
+
+
+div h1{
+    color:antiquewhite
+}
+
+div h4{
+    color: azure;
+
+}
+
+button {
+    background: #11cc44;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    line-height: 30px;
+    color: #fff;
+    border: none;
+    outline: none;
+    
+  }
+
+
+
+.myDiv{
+    background-color: rgba(255, 255, 255, 0.863);
+    height: 550px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    
+
+}
+
+.myDiv h1{
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 30px;
+}
+
+.myDiv h4{
+    color: rgba(0, 0, 0, 0.726);
+}

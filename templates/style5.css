@@ -1,0 +1,83 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.151);
+    background-image: url(img/background-img-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1424px;
+}
+
+header{
+    height: 140px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: rgb(244, 246, 248);
+    padding-top: 14px;
+    padding-bottom: 14;
+    margin-top: 10px;
+    
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: rgb(244, 246, 248);
+    margin-top: 25px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 600px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: rgb(244, 246, 248);
+    margin-top: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 10%;
+    padding-right: 10%;
+}
+
+nav p{
+    color: aliceblue;
+}
+
+main p{
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+main p1{
+    color: rgb(20, 231, 55);
+    font-size: 30px;
+    padding-top: 209px;
+}
+
+main h2{
+    color: aliceblue;
+}

@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.151);
+    background-image: url(img/background-img-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Merriweather' , 'Georgia';
+    font-size: 10px;
+}
+header{
+    height: 140px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: rgb(244, 246, 248);
+    padding-top: 14px;
+    padding-bottom: 14;
+}
+
+
+.wrapper {
+  max-width: 900px;
+  display: block;
+  margin:  auto;
+  padding-left: 400px;
+  padding-right: 200px;
+  padding-top: 0px;
+  
+}
+h1 {
+  margin-top: 3rem;
+  font-size: 2.4rem;
+  color: rgba(49, 48, 48, 0.74);
+}
+input[type="text"] {
+  display: block;
+  font-size: 1.6rem;
+  padding: .5rem;
+  margin: 1.25rem 0;
+}
+button {
+  background: #11cc44;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  width: 200px;
+  height: 50px;
+  line-height: 30px;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgba(17, 9, 85, 0.87);
+}
+
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 10%;
+    padding-right: 10%;
+}
+
+nav p{
+    color: aliceblue;
+}
+
+
